@@ -1,5 +1,5 @@
 package wrapper;
-
+//TODO 没理解，好像是能变的。
 public class immutable {
     public static void main(String[] args) {
         Integer a = 1;

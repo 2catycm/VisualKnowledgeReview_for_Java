@@ -3,7 +3,7 @@ package 手写代码题测试;
 import java.util.ArrayList;
 import java.util.Arrays;
 
-public class PickUpInRange {
+public class PickUpInRange_ArrayList版 {
     public static void main(String[] args) {
         int[][] b = {
                 {1,-2,0,3},
