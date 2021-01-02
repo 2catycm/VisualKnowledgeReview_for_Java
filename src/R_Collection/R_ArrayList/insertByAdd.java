@@ -1,4 +1,4 @@
-package R_ArrayList;
+package R_Collection.R_ArrayList;
 
 import java.util.ArrayList;
 
