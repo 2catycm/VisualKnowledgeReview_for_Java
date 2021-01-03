@@ -1,6 +1,6 @@
 package R_interface;
 
-public interface 理解私有方法 {
+public interface  理解私有方法 {
 //    private void test();//No.Private methods in interfaces should have a body
 //    private static void test();//No.Private methods in interfaces should have a body
     private static void test(){
