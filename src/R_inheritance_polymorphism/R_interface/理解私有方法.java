@@ -1,4 +1,4 @@
-package R_interface;
+package R_inheritance_polymorphism.R_interface;
 
 public interface  理解私有方法 {
 //    private void test();//No.Private methods in interfaces should have a body
@@ -15,6 +15,9 @@ public interface  理解私有方法 {
 public static void main(String[] args) {
 
 }
+
+    public abstract float getVol();
+
     public float getVol(float c);
 
 
@@ -27,6 +30,11 @@ public static void main(String[] args) {
         @Override
         public void main2(String[] args) {
 
+        }
+
+        @Override
+        public float getVol() {
+            return 0;
         }
 
         @Override

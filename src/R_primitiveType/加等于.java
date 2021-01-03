@@ -1,5 +1,7 @@
 package R_primitiveType;
 
+import R数组.ArrayList转换为Array;
+
 public class 加等于 {
     public static void main(String[] args) {
         int a = 1;
@@ -15,5 +17,9 @@ public class 加等于 {
         int c = 4;
         c%=3.34;
         System.out.println(c);
+
+        double e = 4.4;
+        e%=2.0;
+        System.out.println(e);
     }
 }

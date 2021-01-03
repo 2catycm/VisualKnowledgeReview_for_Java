@@ -1,4 +1,4 @@
-package R_interface;
+package R_inheritance_polymorphism.R_interface;
 
 public class 理解default2 {
     public static void main(String[] args) {
