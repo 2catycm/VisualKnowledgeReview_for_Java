@@ -18,6 +18,8 @@ public class 类型通配符 {
         getUpperNumber(age);//2
         getUpperNumber(number);//3
 
+        List<?> t = new ArrayList<String>(); // xs
+        //t.add("hjk");
     }
 
     public static void getData(List<?> data) {
@@ -38,5 +40,6 @@ public class 类型通配符 {
     public static <哈哈 extends Number>  void getUpperNumber4(List<哈哈> data) {
         System.out.println("data :" + data.get(0));
     }
+
 }
 

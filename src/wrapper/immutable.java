@@ -7,6 +7,7 @@ public class immutable {
         Integer b = 1;
         a = b;
         System.out.println(a);
+        System.out.println(a==b);//true
 
         a = 2;
         System.out.println(a);

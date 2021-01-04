@@ -1,10 +1,10 @@
-package mapDemo;
+package R_Collection;
 
 import java.util.HashMap;
 import java.util.Map;
 import java.util.Set;
 
-public class Demo {
+public class method {
 
     private Map<String, String> courses = new HashMap<>();
 
@@ -36,7 +36,7 @@ public class Demo {
 
 
     public static void main(String[] args) {
-        Demo demo=new Demo();
+        mapDemo.Demo demo=new mapDemo.Demo();
         demo.addCourses("CS102A","JavaA");
         demo.addCourses("CS102B","JavaB");
         demo.addCourses("CS309","OOAD");
@@ -47,9 +47,6 @@ public class Demo {
         for(String name: demo.getNameSet()){
             System.out.println(name);
         }
-
-
-        System.out.println(demo.getNameSet());
 
     }
 

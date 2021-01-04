@@ -13,6 +13,7 @@ public class 使用printf输出 {
         System.out.printf("%09d\n",15);// 左补零，占9位
         System.out.printf("%+09d\n",15);// 带符号
         System.out.printf("%+-9d\n",15);// 带符号，左对齐
+       // System.out.printf("%-09d\n",15); 无意义
         //fixme java里没有 %lf %ld
 
     }
