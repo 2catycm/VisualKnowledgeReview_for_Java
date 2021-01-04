@@ -24,7 +24,7 @@ public class PickUpInRange标准答案 {
             result[i] = row;
             //方法2：官方答案：比较快，内部用c++实现
             int[] row2 = new int[count];
-            System.arraycopy(temp,0,row,0,count);//源数组，从哪开始源数组，目标数组，从哪开始，多少个
+            System.arraycopy(temp,0,row2,0,count);//源数组，从哪开始源数组，目标数组，从哪开始，多少个
         }
         return result;
     }
