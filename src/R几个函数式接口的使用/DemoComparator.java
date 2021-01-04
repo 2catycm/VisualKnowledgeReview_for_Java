@@ -18,4 +18,9 @@ public class DemoComparator<T extends Comparable> implements Comparator<T> {
     public int compare(T o1, T o2) {
         return o1.compareTo(o2);
     }
+
+    public static void main(String[] args) {
+        System.out.println(4.4%2);
+        //0.40000000000000036
+    }
 }
