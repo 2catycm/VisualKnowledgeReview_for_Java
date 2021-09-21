@@ -8,6 +8,7 @@
 ## About
 
 欢迎上github提交issue。喜欢的话点个star吧！
+https://github.com/2catycm/VisualKnowledgeReview_for_Java.git
 
 ##### 主编
 
